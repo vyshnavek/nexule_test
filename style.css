@@ -1,0 +1,128 @@
+img {
+    width: auto;
+    height: inherit;
+    position: absolute;
+}
+.login {
+    height: 1000px;
+    width: 100%;
+    background: #0faaf5;
+    position: relative;
+
+}
+.login_box {
+    width: 1050px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 4px 22px -8px #0004;
+    display: flex;
+    overflow: hidden;
+}
+.login_box .left{
+  width: 41%;
+  height: 100%;
+  padding: 25px 25px;
+
+}
+.login_box .right{
+  width: 59%;
+  height: 100%
+}
+.left .top_link a {
+    color: #452A5A;
+    font-weight: 400;
+}
+.left .top_link{
+  height: 20px
+}
+.left .contact{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 73%;
+    margin: auto;
+}
+.left h1{
+  text-align: center;
+  font-weight: 100;
+
+  font-size: 37px;
+
+}
+.left input {
+
+  border: none;
+  width: 80px;
+  margin: 15px 0px;
+  border: 1px solid #030006;
+  border-radius:5px;
+  padding: 7px 9px;
+  width: 100%;
+  overflow: hidden;
+  background: #c1282800;
+  font-weight: 100;
+  font-size: 21px;
+}
+input#rememberMe {
+    display: flex;
+    display: flex;
+    left: auto;
+    display: flex;
+    margin-right: -35px;
+    margin-bottom: 4px;
+    width: auto;
+    margin-left: 23px;
+}
+span.remember {
+    display: inline;
+    right: auto;
+    float: right;
+    margin-inline: 53px;
+    margin-top: -20px;
+    margin-right: 148px;
+    width: fit-content;
+}
+.forgot{
+  text-align:center;
+  font-weight:100;
+}
+.left{
+	background: linear-gradient(-45deg, #dcd7e0, #fff);
+}
+.submit {
+    border: none;
+    padding: 15px 138px;
+    border-radius: 4px;
+    display: block;
+    margin: -4px;
+    margin-left: 6px;
+    margin-top: 39px;
+    background-color:#0c70b3;
+    color: #fff;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    -moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+}
+
+
+
+.right {
+/*	background: url(work-desk.jpg);*/
+	color: #fff;
+	position: relative;
+}
+
+
+.top_link img {
+    width: 28px;
+    padding-right: 7px;
+    margin-top: -3px;
+}
